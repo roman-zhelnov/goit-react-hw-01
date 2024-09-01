@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  overflow: hidden;
+  padding-top: 10px;
+  margin: 15px auto;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: gray;
+  }
+}
+
+.userName {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.userInfo {
+  font-size: 20px;
+  color: gray;
+}
+
+.listStats {
+  display: flex;
+  border-top: 2px solid black;
+  justify-content: space-between;
+  background-color: brown;
+  li {
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    &:hover {
+      background-color: bisque;
+      color: black;
+    }
+  }
+}
